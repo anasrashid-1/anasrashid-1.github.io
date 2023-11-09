@@ -447,16 +447,24 @@
       font-size: 2rem;
       color: var(--bg-oxford-blue-2);
     }
+
+   
     .projectlinks {
       display: flex;
      
     }
     .projectlinks>a>i{
-  
       margin-top: 15px;
     }
     .project-title{
       color: rgb(0, 0, 0);
+    }
+    .project-github-link {
+      font-size: 30px;
+    }
+    
+    .project-deployed-link {
+      font-size: 30px;
     }
   
     .project-description{
@@ -773,6 +781,7 @@
         text-align: center;
         margin-top: 2rem;
       }
+      
     }
     .calender {
   margin: 20px;
@@ -798,5 +807,34 @@
       }
       
       .shape-2 { left: 60px; }
+
+
+
   
+  
+    }
+
+
+
+
+    /* new */
+    .new-product-container{
+      font-size: 13px;
+      display: grid;
+      grid-template-columns: 45% 45%;
+      justify-content: center;
+      gap: 10%;
+    }
+  
+    .new-product-card img{
+      width: 100%;
+    }
+
+    @media screen and (max-width: 576px) {
+      .new-product-container {
+        grid-template-columns: 80%;
+      }
+      #pad-3{
+        padding-bottom: 125px;
+      }
     }
