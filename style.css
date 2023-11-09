@@ -18,17 +18,12 @@
     color: var(--text-color);
     /* color: var(--text-shadow-blue); */
   
-  }
-
-
-  
+  }  
   :root {
   
       /**
        * COLORS
        */
-    
-       
       /** Background colors */
       --bg-wild-blue-yonder: rgb(204, 255, 0);
       --bg-carolina-blue: rgb(0, 255, 170);
@@ -51,15 +46,12 @@
       --text-shadow-blue: hsla(217, 24%, 59%, 1);
       --text-slate-gray: hsla(217, 17%, 48%, 1);
     
-    
-    
       /** Border colors */
       --border-wild-blue-yonder: hsla(216, 33%, 68%, 1);
       --border-prussian-blue: hsla(216, 33%, 20%, 1);
       --border-white: hsl(0, 0%, 100%);
       --border-white-alpha-15: hsla(0, 0%, 100%, 0.15);
     
-   
     /**
      * BOX SHADOW
      */
@@ -335,7 +327,6 @@
       margin-bottom: 5rem;
     }
     .skills-container {
-      margin-top: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -368,6 +359,10 @@
       font-size: 1.6rem;
       margin: 1rem 0 3rem;
     }
+    .sta-heading{
+      font-size: 30px;
+      margin: 30px 0px;
+    }
      
     
     /*-----------------------------------*\
@@ -376,7 +371,7 @@
    
     .project {
       background: var(--bg-oxford-blue);
-      margin-bottom: 100px;
+      margin-bottom: 200px;
     }
     /* .project h2 {
       margin-bottom: 4rem;
@@ -673,7 +668,7 @@
     }
     @media (max-width: 991px) {
       .header {
-        padding: 2rem 3%;
+        padding: rem 3%;
       }
       section {
         padding: 10rem 3% 2rem;
@@ -732,7 +727,7 @@
         top: 100%;
         left: 0;
         width: 100%;
-        /* padding: ; */
+        padding-left:40px ;
         background: var(--bg-oxford-blue);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
@@ -867,6 +862,7 @@
     @media screen and (max-width: 576px) {
       .new-product-container {
         grid-template-columns: 80%;
+        margin-bottom: 400px;
       }
 
     }
