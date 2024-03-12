@@ -14,7 +14,7 @@ menuIcon.onclick = () => {
 
     function NewTab() {
       window.open(
-        "https://drive.google.com/file/d/1jk19G1kjzTeOXN5fCMZwgsPP2PlS1Cnv/view?usp=sharing",
+        "https://drive.google.com/file/d/1FK_0gaVoHuaEpRGFL7plIsRxdRK_hB7V/view?usp=sharing",
         "_blank"
       );
     }
